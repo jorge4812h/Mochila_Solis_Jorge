@@ -1,0 +1,32 @@
+Inicializar repositorio
+git init
+
+De working diretory a Stagged:
+git add nombre_archivo
+
+De stagged a Guardado:
+git commit -m "Mensaje descriptivo"
+
+Conexion con repo remoto:
+git remote add "nombre_repo_remoto" "direccion_repo_remoto"
+
+Subir cambios a repo local:
+git push origin main
+
+Bajar cambioso a repo local:
+git pull origin main
+
+Creacion de ramas:
+git branch "nombre_rama"
+
+Cambio entre ramas:
+git checkout "nombre_rama"
+
+Cambio y creacion de ramas
+git checkout -b "nombre_rama"
+
+Estado de repo:
+git status
+
+Historial de commits:
+git log
